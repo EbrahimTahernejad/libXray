@@ -22,9 +22,9 @@ void OSLog(uint8_t type, const char *message) {
 import "C"
 
 import (
-	xlog "github.com/xtls/xray-core/app/log"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/log"
+	xlog "github.com/GFW-knocker/Xray-core/app/log"
+	"github.com/GFW-knocker/Xray-core/common"
+	"github.com/GFW-knocker/Xray-core/common/log"
 	"unsafe"
 )
 

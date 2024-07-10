@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"reflect"
 
-	statsService "github.com/xtls/xray-core/app/stats/command"
+	statsService "github.com/GFW-knocker/Xray-core/app/stats/command"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/protobuf/encoding/protojson"

@@ -18,6 +18,7 @@ class AppleGoMobileBuilder(Builder):
             [
                 "gomobile",
                 "bind",
+                "-v",
                 "-target",
                 "ios,iossimulator,macos",
                 "-iosversion",

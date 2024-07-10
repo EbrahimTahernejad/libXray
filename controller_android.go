@@ -5,7 +5,7 @@ package libXray
 import (
 	"syscall"
 
-	xinternet "github.com/xtls/xray-core/transport/internet"
+	xinternet "github.com/GFW-knocker/Xray-core/transport/internet"
 )
 
 type DialerController interface {

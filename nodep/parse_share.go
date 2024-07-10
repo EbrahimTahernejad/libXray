@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-// https://github.com/XTLS/Xray-core/discussions/716
+// https://github.com/GFW-knocker/Xray-core/discussions/716
 // Convert share text to XrayJson
 // support v2rayN plain text, v2rayN base64 text
 func ConvertShareLinksToXrayJson(links string) (*XrayJson, error) {
@@ -479,7 +479,7 @@ func (proxy xrayShareLink) parseSecurity(link *url.URL, streamSettings *XrayStre
 		tlsSettings.Alpn = strings.Split(alpn, ",")
 	}
 
-	// https://github.com/XTLS/Xray-core/discussions/716
+	// https://github.com/GFW-knocker/Xray-core/discussions/716
 	// 4.4.3 allowInsecure
 	// 没有这个字段。不安全的节点，不适合分享。
 	// I don't like this field, but too many people ask for it.

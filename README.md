@@ -1,6 +1,6 @@
 # libXray
 
-This is an Xray wrapper focusing on improving the experience of [Xray-core](https://github.com/XTLS/Xray-core) mobile development.
+This is an Xray wrapper focusing on improving the experience of [Xray-core](https://github.com/GFW-knocker/Xray-core) mobile development.
 
 # Note
 
@@ -124,7 +124,7 @@ export xray.
 
 ## Credits
 
-[Project X](https://github.com/XTLS/Xray-core)
+[Project X](https://github.com/GFW-knocker/Xray-core)
 
 [VMessPing](https://github.com/v2fly/vmessping)
 

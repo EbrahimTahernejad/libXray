@@ -1,7 +1,7 @@
 package xray
 
 import (
-	"github.com/xtls/xray-core/common/uuid"
+	"github.com/GFW-knocker/Xray-core/common/uuid"
 )
 
 // convert text to uuid

@@ -13,7 +13,7 @@ import "C"
 import "unsafe"
 
 import (
-	"github.com/xtls/xray-core/common/log"
+	"github.com/GFW-knocker/Xray-core/common/log"
 )
 
 var ctag = C.CString("xray")

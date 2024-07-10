@@ -22,12 +22,12 @@ class Builder(object):
             delete_dir_if_exists(dir_path)
 
     def prepare_go(self):
-        clean_files = ["go.mod", "go.sum"]
-        self.clean_lib_files(clean_files)
-        os.chdir(self.lib_dir)
-        ret = subprocess.run(["go", "mod", "init", "github.com/xtls/libxray"])
-        if ret.returncode != 0:
-            raise Exception("go mod init failed")
+        # clean_files = ["go.mod", "go.sum"]
+        # self.clean_lib_files(clean_files)
+        # os.chdir(self.lib_dir)
+        # ret = subprocess.run(["go", "mod", "init", "github.com/xtls/libxray"])
+        # if ret.returncode != 0:
+        #     raise Exception("go mod init failed")
         ret = subprocess.run(["go", "mod", "tidy"])
         if ret.returncode != 0:
             raise Exception("go mod tidy failed")

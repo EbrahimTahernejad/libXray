@@ -4,10 +4,10 @@ import (
 	"os"
 	"runtime/debug"
 
+	"github.com/GFW-knocker/Xray-core/common/cmdarg"
+	"github.com/GFW-knocker/Xray-core/core"
+	_ "github.com/GFW-knocker/Xray-core/main/distro/all"
 	"github.com/xtls/libxray/nodep"
-	"github.com/xtls/xray-core/common/cmdarg"
-	"github.com/xtls/xray-core/core"
-	_ "github.com/xtls/xray-core/main/distro/all"
 )
 
 var (
